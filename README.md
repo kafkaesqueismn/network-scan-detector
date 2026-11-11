@@ -1,5 +1,7 @@
 # Network Scan Detector
 
+[![license: MIT](https://img.shields.io/badge/license-MIT-8b6fe0.svg)](LICENSE)
+
 A beginner-friendly Jupyter notebook that trains a small machine-learning model
 to classify **fictional network connections** as either normal traffic or likely
 **port scanning**.
@@ -72,3 +74,7 @@ jupyter notebook Network_Scan_Detector.ipynb
 - **This is not for real use.** Don't deploy it or use it to make decisions about
   real networks. In practice, ML is just one layer alongside IDS rules, rate
   limiting, allowlists of authorised scanners and human review.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
